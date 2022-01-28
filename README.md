@@ -1,7 +1,7 @@
 
 # Steps To Run App:
     1. `npm i`
-    2.1. For development mode: `npm run start`  => then open the url http://localhost:5000/
+    2.1. For development mode: `npm run start`  => then open the url http://localhost:3000/
     2.2. For production mode: `npm run build && cd build && serve` => then open the url http://localhost:5000/
 
 # Deployed URL:
