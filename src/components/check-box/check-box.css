@@ -1,0 +1,8 @@
+.check-box {
+  display: inline-block;
+  border-radius: 50%;
+  border: 1px solid lightgray;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 60%;
+}

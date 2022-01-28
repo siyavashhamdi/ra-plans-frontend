@@ -1,0 +1,14 @@
+.plan-section-holder {
+    margin-top: 150px;
+    margin-left: 20%;
+}
+
+.plan-section-holder .plan-section-title {
+    font-size: 38px;
+    font-weight: bold;
+    margin-bottom: 80px;
+}
+
+.plan-section-holder .plan-section-plan-box {
+    margin-bottom: 20px;
+}

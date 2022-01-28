@@ -1,0 +1,39 @@
+.ensurance {
+  position: relative;
+  background-color: black;
+  background-image: url('../../../public/images/bg.png');
+  height: 100%;
+  background-size: 100% 100%;
+  opacity: 0.9;
+}
+
+.ensurance .overlay-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: 0.6;
+}
+
+.ensurance .overlay {
+  position: absolute;
+  padding-top: 320px;
+  color: white;
+  margin-left: 15%;
+  font-size: 20pt;
+  font-weight: bold;
+  max-width: 450px;
+  z-index: 99;
+}
+
+.ensurance .desc-holder {
+  display: flex;
+  padding: 22px 0;
+  align-items: center;
+}
+
+.ensurance .check-box-assurance {
+  display: inline-block;
+  margin-right: 30px;
+  padding-top: 5px;
+}

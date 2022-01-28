@@ -1,0 +1,65 @@
+.plan-box {
+  border: solid 2px lightgray;
+  padding: 20px;
+  min-height: 100px;
+  max-width: 500px;
+  border-radius: 5px;
+}
+
+.plan-box:hover:not(.plan-box-active) {
+  background-color: #f5f5f5;
+  border: solid 2px black;
+  transition: 1s;
+}
+
+.plan-box-active {
+  background-color: #ffefdb;
+  border: solid 2px black;
+  transition: 1s;
+}
+
+.plan-box .plan-box-container {
+  display: flex;
+}
+
+.plan-box .check-box-holder {
+  width: 50px;
+}
+
+.plan-box .plan-info {
+  margin-left: 5px;
+  width: 400px;
+  overflow-wrap: break-word;
+  font-size: 14px;
+}
+
+.plan-box .plan-base {
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.plan-box .plan-title {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.plan-box .plan-price {
+  font-weight: bold;
+}
+
+.plan-box .plan-info li {
+  font-size: 12px;
+  max-width: 350px;
+  color: gray;
+  list-style-type: none;
+  position: relative;
+}
+
+.plan-box .plan-info li:before {
+  content: '•';
+  position: absolute;
+  left: -1em;
+  top: 0.1em;
+  font-size: 1em;
+}

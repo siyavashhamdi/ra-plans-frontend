@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "title": "Free",
+    "price": 0,
+    "descriptions": [
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt",
+      "ut labore et dolore magna aliqua."
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Plan 1",
+    "price": 20000,
+    "descriptions": [
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt",
+      "ut labore et dolore magna aliqua."
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Plan 2",
+    "price": 35000,
+    "descriptions": [
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt",
+      "ut labore et dolore magna aliqua."
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Plan 3",
+    "price": 50000,
+    "descriptions": [
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt",
+      "ut labore et dolore magna aliqua."
+    ]
+  }
+]
