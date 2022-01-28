@@ -1,9 +1,9 @@
 import PlanSection from './plan/PlanSection';
-import EnsuranceSection from '../components/ensurance/EnsuranceSection';
+import Assurance from '../components/assurance/Assurance';
 import Footer from './footer/Footer';
 
 import data from '../data/plans.json';
-import ensurance from '../data/ensurance.json';
+import assurance from '../data/assurance.json';
 
 import './app.css';
 import { useState } from 'react';
@@ -33,7 +33,7 @@ function App(): JSX.Element {
       </section>
 
       <aside className='identical-flex-size'>
-        <EnsuranceSection descriptions={ensurance} />
+        <Assurance descriptions={assurance} />
       </aside>
 
       {selectedPlan &&

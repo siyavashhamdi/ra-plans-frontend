@@ -1,10 +1,10 @@
 import CheckBox from '../check-box/CheckBox';
-import { IEnsuranceInput } from './interface';
-import './ensurance-section.css';
+import { IAssuranceInput as IAssuranceInput } from './interface';
+import './assurance-section.css';
 
-export default function EnsuranceSection(props: IEnsuranceInput): JSX.Element {
+export default function Assurance(props: IAssuranceInput): JSX.Element {
   return (
-    <div className='ensurance'>
+    <div className='assurance'>
       <div className='overlay-back' />
       <div className='overlay'>
         {props.descriptions.map((desc, id: number) => (
